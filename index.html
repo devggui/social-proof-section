@@ -18,51 +18,75 @@
 
     <title>Frontend Mentor | Social proof section</title>
   </head>
-  <body>
-    <main>
-      <h1>10,000+ of our users love our products.</h1>
+  <body class="w-screen h-screen bg-[var(--White)]">
+    <main class="flex flex-col items-center justify-center text-center px-5 py-10">
+      <h1 class="text-4xl font-bold text-[var(--Very-Dark-Magenta)] my-5 px-5">10,000+ of our users love our products.</h1>
   
-      <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+      <p class="text-base font-normal text-[var(--Dark-Grayish-Magenta)] mb-5">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
       
-      <div>
-        <img src="" alt="">
-        <span>Rated 5 Stars in Reviews</span>
-      </div>
-      <div>
-        <img src="" alt="">
-        <span>Rated 5 Stars in Report Guru</span>
-      </div>
-      <div>
-        <img src="" alt="">
-        <span>Rated 5 Stars in BestTech</span>
-      </div>
-      
-      <div>
-        <img src="" alt="">
-        <div>
-          <strong>Colton Smith</strong> 
-          <span>Verified Buyer</span>
+      <div class="flex flex-col w-full items-center justify-center bg-[var(--Light-Grayish-Magenta)] p-5 my-2 rounded-lg">
+        <div class="flex flex-row">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
         </div>
-        <p>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
+        <span class="text-normal font-bold text-[var(--Very-Dark-Magenta)]">Rated 5 Stars in Reviews</span>
+      </div>
+      <div class="flex flex-col w-full items-center justify-center bg-[var(--Light-Grayish-Magenta)] p-5 my-2 rounded-lg">
+        <div class="flex flex-row">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+        </div>
+        <span class="text-normal font-bold text-[var(--Very-Dark-Magenta)]">Rated 5 Stars in Report Guru</span>
+      </div>
+      <div class="flex flex-col w-full items-center justify-center bg-[var(--Light-Grayish-Magenta)] p-5 mt-2 mb-10 rounded-lg">
+        <div class="flex flex-row">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+          <img class="px-1 pb-2" src="./images/icon-star.svg" alt="">
+        </div>
+        <span class="text-normal font-bold text-[var(--Very-Dark-Magenta)]">Rated 5 Stars in BestTech</span>
       </div>
       
-      <div>
-        <img src="" alt="">
-        <div>
-          <strong>Irene Roberts</strong>
-          <span>Verified Buyer</span>
+      <div class="flex flex-col w-full p-5 bg-[var(--Very-Dark-Magenta)] my-2 rounded-lg">
+        <div class="flex flex-row mb-5 items-center justify-start">
+          <img class="rounded-full w-10 h-10 mr-5" src="./images/image-anne.jpg" alt="">
+          <div class="flex flex-col items-center justify-center">
+            <strong class="text-[var(--White)]">Colton Smith</strong> 
+            <span class="text-[var(--Soft-Pink)]">Verified Buyer</span>
+          </div>
         </div>
-        <p>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+        <p class="text-[var(--White)] text-left">"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
+      </div>
+      
+      <div class="flex flex-col w-full p-5 bg-[var(--Very-Dark-Magenta)] my-2 rounded-lg">
+        <div class="flex flex-row mb-5 items-center justify-start">
+          <img class="rounded-full w-10 h-10 mr-5" src="./images/image-anne.jpg" alt="">
+          <div class="flex flex-col items-center justify-center">
+            <strong class="text-[var(--White)]">Irene Roberts</strong>
+            <span class="text-[var(--Soft-Pink)]">Verified Buyer</span>
+          </div>
+        </div>
+        <p class="text-[var(--White)] text-left">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
       </div>
       
       
-      <div>
-        <img src="" alt="">
-        <div>
-          <strong>Anne Wallace</strong>
-          <span>Verified Buyer</span>
+      <div class="flex flex-col w-full p-5 bg-[var(--Very-Dark-Magenta)] my-2 rounded-lg">
+        <div class="flex flex-row mb-5 items-center justify-start">
+          <img class="rounded-full w-10 h-10 mr-5" src="./images/image-anne.jpg" alt="">
+          <div class="flex flex-col items-center justify-center">
+            <strong class="text-[var(--White)]">Anne Wallace</strong>
+            <span class="text-[var(--Soft-Pink)]">Verified Buyer</span>
+          </div>
         </div>
-        <p>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"    </p>
+        <p class="text-[var(--White)] text-left">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"    </p>
       </div>
     </main>
   </body>
